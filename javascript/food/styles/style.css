@@ -1,0 +1,54 @@
+/*
+ * Author: Daniel Knoll
+ * Date: November 10, 2021
+ * Description: a stylesheet for a food website
+ * need to fix borders between aside/main and add a food image to background
+ */
+body
+{
+	background-color:black;
+}
+
+.container
+{
+	background-color:black;
+	font-family:Verdana;	
+	display:grid;
+	width: 60%;
+	margin: 0 auto;
+	grid-template-columns:1.5fr 1fr;
+	grid-template-rows:1fr 1fr;
+	grid-gap:10px;
+	grid-template-areas:
+		"main	aside";x
+		"main	aside"
+}
+
+#main div
+{
+	grid-area:main;
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+#top
+{
+	border-radius: 25px 25px 0 0;
+	background-color:#f0f0f0;
+	padding: 10px;
+}
+
+#bottom
+{
+	border-radius:0px 0px 25px 25px;
+	padding: 10px;
+	background-color:white;
+}
+
+#aside
+{
+	border-radius:25px 25px 25px 25px;
+	padding: 10px;
+	background-color:white;
+	grid-area:aside;
+}

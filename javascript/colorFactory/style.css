@@ -1,0 +1,66 @@
+/*
+	Author:	Daniel Knoll
+	Date:	December 3, 2021
+	Description: CSS For Color Factory Assignment
+*/
+
+html
+{
+	font-family:Arial;
+}
+
+body
+{
+	background-color:#f5f5dc;
+}
+
+button
+{
+	position:absolute;
+	left:42%;
+	background-color:#dedebf;
+}
+
+.header
+{
+	background-color:#8a8a76;
+	margin:0px;
+	padding:0;
+	text-align:center;
+}
+
+.container
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:auto;
+	width:600px;
+	background-color:gray;	
+}
+
+.bottomStuff
+{
+	margin:auto;
+	text-align:center;
+}
+
+table
+{
+	padding:20px;
+	width:100%;
+	display:absolute;
+	left:30%
+}
+td
+{
+	width:50%;
+}
+
+#colorBox
+{
+	width:75px;
+	height:75px;
+	margin:25px;
+	border:1px solid black;
+}

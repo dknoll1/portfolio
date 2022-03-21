@@ -1,0 +1,86 @@
+/*
+    Web page styles for the theme park tickets calculator page.
+    Author:	Daniel Knoll, Josh Archer
+    File:	styles.css
+    Date:	October 6, 2021
+*/
+html {
+	width:100%;
+	background-color:#ffd131;
+	border:3px solid black;
+}
+
+hr {
+	color:black;
+	border:none;
+	background:black;
+	height:1px;
+}
+
+html > body {
+	text-align:center;
+	margin:auto;
+	width: 90%;
+	background-color:#ffd289;
+	border:3px solid black;
+	border-top:none;
+	border-bottom:none;
+	font-size:20px;
+}
+
+form {
+	width:60%;	
+	margin:auto;
+	text-align:left;
+}
+
+.fullw { /* resize image only if browser is shrinking everything */
+	max-width:100%;
+}
+
+button#calcButton {
+	text-align:center;
+	font-size:24px;
+	height:42px;
+	max-width:36%;
+	min-width:150px;
+}
+
+p#sumOfProduct {
+	margin-top:16px;
+	margin-bottom:22px;
+	font-size:32px;
+}
+
+.form-button, #calcButton {
+	text-align:center;
+	font-size:20px;
+}
+
+.formstuff {
+	border-radius:6px;
+	border:1px solid black;
+}
+
+input, select {
+	width: 100%;
+	margin-top:1px;
+	padding:3px;
+	font-size:16px;
+	margin-bottom:14px;
+}
+input {
+	height:24px;	
+}
+select{
+	height:32px;	
+}
+
+/* 
+after finishing everything, https://kinsta.com/blog/web-safe-fonts/
+was used to attempt to match font shown in example
+*/
+h1 {
+	font-size:42px;
+	font-family: "Times", "Times New Roman", "Georgia", "serif"
+}

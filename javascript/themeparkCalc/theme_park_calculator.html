@@ -1,0 +1,51 @@
+<!--
+    This file contains the markup for the theme park
+    tickets calculator.
+    Author: Daniel Knoll, Josh Archer
+    File:	theme_park_calculator.html
+    Date:	October 6, 2021
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/styles.css">
+    <title>Theme Park Ticket Calculator</title>
+</head>
+<body>
+	<img src="images/tp_top.png" alt="Circus Carousel Scene" class="fullw">
+	<hr>
+	<h1>Theme Park Ticket Calculator</h1>
+	<form>
+	<div class = "form-field">
+        <label for = "adultPrice">Adult cost</label><br>
+        <input type = "text" id = "adultPrice" name = "adultPrice" placeholder="35.00" class="formstuff">
+    </div>
+	<div class = "form-field">
+        <label for = "childPrice">Child cost</label><br>
+        <input type = "text" id = "childPrice" name = "childPrice" placeholder="15.00" class="formstuff">
+    </div>
+	<div class = "form-select">
+		<label for = "adultQuantity">Adult Tickets</label><br>
+		<select id = "adultQuantity" name = "adultQuantity" placeholder="1" class="formstuff">
+		<option value="0">0 tickets</option><option value="1" selected>1 ticket</option><option value="2">2 tickets</option><option value="3">3 tickets</option><option value="4">4 tickets</option><option value="5">5 tickets</option><option value="6">6 tickets</option><option value="7">7 tickets</option><option value="8">8 tickets</option><option value="9">9 tickets</option><option value="10">10 tickets</option>
+		</select>
+	</div>
+	<div class = "form-select">
+		<label for = "childQuantity">Child Tickets</label><br>
+		<select id = "childQuantity" name = "childQuantity" placeholder="2" class="formstuff">
+		<option value="0">0 tickets</option><option value="1">1 ticket</option><option value="2" selected>2 tickets</option><option value="3">3 tickets</option><option value="4">4 tickets</option><option value="5">5 tickets</option><option value="6">6 tickets</option><option value="7">7 tickets</option><option value="8">8 tickets</option><option value="9">9 tickets</option><option value="10">10 tickets</option>
+		</select>
+	</div>
+	<div class="form-button">
+    <button id="calcButton">Calculate!</button><br>
+	</div>
+	</form>
+	<p id = "sumOfProduct">Total cost for tickets: $85.00</p>
+	
+	<hr>
+	<img src="images/tp_bottom.png" alt="Circus Scene" class="fullw">
+		
+	<script src="scripts/tickets.js"></script>
+</body>
+</html>
