@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calorie tracker!</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body class="container">
+        <main>
+            <section id="A">
+                <h1>Weight Conversion</h1>
+                <div class="control-group">
+                    <label>Weight in lbs</label>
+                    <input type="text" id="lbs">
+                </div>
+                <button id="lbs-to-kgs">Convert to kgs</button>
+            </section>
+            <section id="B">
+                <h1>Workout METs</h1>
+                <div class="control-group">
+                    <label>Workout type</label>
+                    <select id="workouts"> 
+                        <!-- 
+                            Finding MET values fascinating, and will pick some that I 
+                            tend to do myself. But first I should mention after reading 
+                            about values from the other link, I borrowed some values and text
+                            from this link: https://golf.procon.org/met-values-for-800-activities/
+                            Note: electric bass is much heavier than a guitar and certainly carries
+                            a higher MET value than Trombone.. but could not find Tuba (standing)
+                            which is likely closer to 5-6 for a better comparison
+                            
+                        -->
+                        <option value='2.8'>Light effort situps</option><option value='8.0'>Vigorous push ups, sit ups, jumping jacks</option><option value='2.5'>Washing dishes</option><option value='3.3' selected>Vacuuming</option><option value='3.5'>Moderate Effort Cooking</option><option value='2.0'>Light Effort Food Prep</option><option value='1.75'>Classical Guitar</option><option value='4.0'>Electric Bass (Standing)</option><option value='1.5'>Card Games (Sitting)</option>
+                    </select>
+                </div>
+                <button id="workout-to-met">Convert to MET</button>
+            </section>
+            <section id="C">
+                <h1>Calories burned per minute</h1>
+                <div class="control-group">
+                    <label>MET</label>
+                    <input type="text" id="met">
+                </div><br>
+                <div class="control-group">
+                    <label>Weight in kg</label>
+                    <input type="text" id="kgs">
+                </div>
+                <button id="calc-calories">Calculate calories</button>
+            </section>
+			<div id="D">
+            	<img src="images/colories.png" alt="">
+			</div>
+        </main>
+        <aside id="E">
+			<!-- https://www.w3schools.com/tags/tag_textarea.asp is referenced to see what i can do with this -->
+            <textarea id="console"></textarea>
+        </aside>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
