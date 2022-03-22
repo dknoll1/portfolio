@@ -1,0 +1,17 @@
+.container {
+	background-color:white;
+}
+
+.container div {
+padding:10px;	
+}
+
+#ind {
+	width:100%;
+	padding:10px;
+}
+
+#banner {
+	padding:0px;
+	width:100%;
+}

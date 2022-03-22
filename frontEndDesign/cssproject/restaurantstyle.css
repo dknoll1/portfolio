@@ -1,0 +1,100 @@
+html {
+	width:100%;
+	height:100%;
+	background-color:#121212;
+}
+body {
+	background-color:white;
+	min-height:100vh; /* found answer to problem https://stackoverflow.com/questions/25238/100-min-height-css-layout */
+	width:80%;
+	margin:auto;
+	font-family:"Lato", "Arial", "Helvetica" ;
+	font-size:14px;
+	line-height:1em;
+	padding-bottom:100px;
+}
+
+p {
+	margin-left:10px;	
+}
+table {
+	width:66%;
+	margin:auto;
+	line-height:1.4em;
+}
+th {
+	text-align:left;
+}
+img {
+	display:block;
+	float:right;
+}
+
+header, footer {
+	text-align:center;
+	margin:auto;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+h3 {
+	text-align:center;
+}
+ul {
+	padding-left: 0;
+	list-style-position: inside;
+}
+.headmenu li, .footmenu li {
+	display:inline-block;
+}
+.headmenu a:link {
+	color:white;
+	text-decoration:none;
+}
+.headmenu a:hover {
+	text-decoration:underline;
+}
+.headmenu a:visited {
+	color:white;
+}
+.headmenu a:active {
+	color:#000000;
+}
+
+header {
+	background-color:maroon;	
+}
+footer {
+	background-color:#121212;	
+	opacity:.8; /* using opacity found in https://www.w3schools.com/css/css_image_transparency.asp */
+	width:80%; 
+	position:fixed; /* Using the first answer post from https://css-tricks.com/forums/topic/how-to-make-footer-floating-at-bottom-of-page/  for this */
+	bottom: 0; /*and this*/
+	font-size:12px;
+	color:white;
+}
+#desc:before { /* found the answer here https://www.designcise.com/web/tutorial/how-to-add-a-line-break-to-an-html-element-using-css-only and https://stackoverflow.com/questions/14610803/add-an-id-to-before-pseudo-class */
+	content:'\A';
+	white-space:pre;
+}
+dd#desc {
+	color:maroon;
+	white-space:pre-line;
+	margin-left:33%;
+	font-style:italic;
+}
+dt {
+	float:left;
+	margin-right:10px;
+}
+dd#price { /* going to look at https://stackoverflow.com/questions/40762697/how-to-align-dt-and-dd-side-by-side-using-flexbox-with-multiple-dd-underneath-th for ideas */
+	color:green;
+	font-style:italic;
+	float:right;
+}
+.footmenu li, .footmenu li {
+	display:inline-block;
+}
+.footmenu a {
+	color:white;	
+	text-decoration:none;
+}
