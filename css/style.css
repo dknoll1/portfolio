@@ -1,12 +1,11 @@
 .container
 {
-	background-color:rgb(70, 93, 149);
+	background-color:rgb(10, 93, 149);
 	font-family:Verdana;	
 	display:grid;
 	margin: 0 auto;
 	width: 100%;
 	grid-template-columns:1fr;
-	grid-template-rows:1fr 1fr;
 	grid-gap:10px;
 	grid-template-areas:
 		"main";
@@ -75,8 +74,26 @@ footer {
 	padding-bottom:10px;
 	padding-top:10px;
 }
+
+
+footer a:link {
+	  color: white;
+	}
+
+footer a:visited {
+	color: white;
+	}
+
+footer a:hover {
+	  color: white;
+	}
+
+footer a:active {
+	  color: white;
+	}
+
 	
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 900px)
 {
 	body
 	{
@@ -109,7 +126,7 @@ footer {
 		border: 3px solid black;
 		border-radius: 25px;
 		padding: 10px 10px 10px 10px;
-		margin: 5px 5px 5px 5px;
+		margin: 5px 0px 5px 0px;
 	}
 
 	#aside div
