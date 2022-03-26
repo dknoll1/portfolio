@@ -4,23 +4,48 @@
     	<meta charset="utf-8">
 		<link rel="stylesheet" href="css/style.css">
 		<title>Danny Knoll</title>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</head> 
 </head>
 <body>
 	<div class="container">
 		<div id="main">
-			<div>
+			<div id="top">
 				<center><h3>Danny Knoll</h3>
+				<ul class="nav justify-content-center">
+				  <li class="nav-item">
+					<a class="nav-link" href="#top">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#web">Web</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#java">Java</a>
+				  </li>
+				</ul>
 			</div>
 			<div>
-				<p>Hlo World!<br><br>
+				<h4 id="about">About Me</h4>
+				<p>I am a technologist and have worked with computers for several years. As a hobby, I have used linux for around 18 years, and always found programming fascinating beginning with <i>C</i> code in 2008. I now have competency in <i>Java</i>, <i>Python</i> and <i>C++</i> as well. Other known programming and markup languages would be <i>HTML, CSS, PHP and Javascript</i>. This page demonstrates an array of projects I've completed in school while maintaining a 4.0 computer science GPA.
+
+				<p>I consider programming and web development to be a fun hobby, but I will graduate this Spring with an AAS-T in Data Analytics and Software Development.
+			</div>
+			<div>
+				<h4 id="contact">Contact me</h4>
+				<p>You can contact me via email at <a href="mailto: knoll.daniel@student.greenriver.edu">knoll.daniel@student.greenriver.edu</a>
 				<center><img src="pictures/peach.jpg" width=42%></center>
 			</div>
 		</div>
 	
 		<div id="aside">
 			<div>
-				<h4>HTML, CSS & Javascript</h4>
+				<h4 id="web">HTML, CSS & Javascript</h4>
 				<a href="frontEndDesign/finalproject/index.html" target=0>Fake Museum</a> - A dynamically sizing design from scratch.<br>
 				<a href="javascript/calories/exercise.html" target=0>MET Value Calculator</a> - Calculate different values to see calories burned per minute.<br>
 				<a href="javascript/colorFactory/index.html" target=0>Color Factory</a> - Find and store random colors.<br>
@@ -29,19 +54,18 @@
 				<a href="javascript/themeparkCalc/theme_park_calculator.html" target=0>Themepark Calculator</a> - A simple, but cute, ticket calculator.<br>
 				<a href="frontEndDesign/cssproject/index.html" target=0>Fake Restaurant</a> - A design from scratch.<br>
 				<a href="frontEndDesign/bootstrap/bstraphw.html" target=0>Bootstrap Fruits</a> - A dynamically sizing design using Bootstrap.<br>
-
 			</div>
 		
 			<div>
-				<h4>Java programming</h4>
+				<h4 id="java">Java programming</h4>
 				<a href="https://github.com/dknoll1/connect-4" target=1>Connect 4</a> - A Connect 4 solution with an object<br>
 				<a href="https://github.com/dknoll1/wordle" target=1>Wordle</a> - Wordle game with several words to guess.<br>
 				<a href="https://github.com/dknoll1/bearhug" target=1>BearHug Game</a> - A game made in Java (requires ACM.jar)<br>
 			</div>
 		</div>
 	</div>
-<footer>
-	All work &#169; Danny Knoll
-</footer>
+	<footer>
+		Copyright &copy; 2022 Danny Knoll (<a href="#top">back to top</a>)
+	</footer>
 </body>
 </HTML>
