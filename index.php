@@ -31,7 +31,23 @@
 		</div>
 	
 		<div id="aside">
-			<?php include 'codes.html';?>
+			<div>
+				<h4>HTML, CSS & Javascript</h4>
+				<a href="frontEndDesign/finalproject/index.html" target=0>Fake Museum</a> - A dynamically sizing design from scratch.<br>
+				<a href="javascript/calories/exercise.html" target=0>MET Value Calculator</a> - Calculate different values to see calories burned per minute.<br>
+				<a href="javascript/colorFactory/index.html" target=0>Color Factory</a> - Find and store random colors.<br>
+				<a href="javascript/food/index.html" target=0>Food Database</a> - A food database that shows different pieces of data.<br>
+				<a href="javascript/skylines/page.html" target=0>Skylines</a> - Used html canvas and javascript to create a random interpretation of a skyline<br>
+				<a href="javascript/themeparkCalc/theme_park_calculator.html" target=0>Themepark Calculator</a> - A simple, but cute, ticket calculator.<br>
+				<a href="frontEndDesign/cssproject/index.html" target=0>Fake Restaurant</a> - A design from scratch.<br>
+			</div>
+		
+			<div>
+				<h4>Java programming</h4>
+				<a href="https://github.com/dknoll1/connect-4" target=1>Connect 4</a> - A Connect 4 solution with an object<br>
+				<a href="https://github.com/dknoll1/wordle" target=1>Wordle</a> - Wordle game with several words to guess.<br>
+				<a href="https://github.com/dknoll1/bearhug" target=1>BearHug Game</a> - A game made in Java (requires ACM.jar)<br>
+			</div>
 		</div>
 <footer>
 	All work &#169; Danny Knoll
