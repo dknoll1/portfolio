@@ -39,9 +39,11 @@
 			</div>
 			<div>
 				<h4 id="contact">Contact me</h4>
-				<p>You can contact me via email at <a href="mailto: knoll.daniel@student.greenriver.edu">knoll.daniel@student.greenriver.edu</a>
-				<p>My phone number is (509) 217 7902
-				<center><img src="pictures/peach.jpg" width=42%></center>
+				<center>
+				<button onclick="hideShow()">Show/Hide contact information</button>
+				<p id="hidden">You can contact me via email at <a href="mailto: knollmdan@gmail.com">knollmdan@gmail.com</a><br>
+				Or by phone, my number is (509) 217 7902
+				</center>
 			</div>
 		</div>
 	
@@ -71,5 +73,19 @@
 	<footer>
 		Copyright &copy; 2022 Danny Knoll (<a href="#top">back to top</a>)
 	</footer>
+	<script>
+		function hideShow() 
+		{
+			var x = document.getElementById("hidden");
+			if (x.style.display == "none") 
+			{
+				x.style.display = "block";
+			} 
+			else 
+			{
+				x.style.display = "none";
+			}
+		}
+</script>
 </body>
 </HTML>
